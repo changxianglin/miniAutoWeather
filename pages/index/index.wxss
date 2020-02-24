@@ -50,3 +50,13 @@ page {
   width: 60%;
   background-color: pink;
 }
+
+.right-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-text1 {
+  font-size: 25rpx;
+}

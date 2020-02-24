@@ -1,26 +1,26 @@
 <view class="wai">
   <view class="nei">
     <view class="left">
-      <image class="left-img"></image>
-      <text class="left-text1">23 晴</text>
+      <image class="left-img" src="/images/{{src}}.png"></image>
+      <text class="left-text1">{{tmp_max}}℃{{weather}}</text>
       <text class="left-text2">更新时间</text>
-      <text class="left-text2">2020-02-24 14:54:12</text>
+      <text class="left-text2">{{locTime}}</text>
     </view>
     <view class="rigth">
-      <text class="right-text1">当前城市：{{province}},{{city}}</text>
+      <text class="right-text1">当前城市：{{province}},{{city}},{{location}}</text>
       <view class="right-bar">
-        <text class="right-text1"></text>
-        <text class="rgiht-text1"></text>
+        <text class="right-text1">最高温度：{{tmp_max}}℃</text>
+        <text class="right-text1">最低温度：{{tmp_min}}℃</text>
       </view>
       <view class="right-bar">
-        <text class="right-text1"></text>
-        <text class="rgiht-text1"></text>
+        <text class="right-text1">风速：{{wind_spd}} 公里/小时</text>
+        <text class="right-text1">风力：{{wind_sc}} 级</text>
       </view>
       <view class="right-bar">
-        <text class="right-text1"></text>
-        <text class="rgiht-text1"></text>
+        <text class="right-text1">日出：{{sr}}</text>
+        <text class="right-text1">日落：{{ss}}</text>
       </view>
-      <view class="right-text1"></view>
+      <view class="right-text1">建议：{{txt}}</view>
     </view>
   </view>
 </view>
