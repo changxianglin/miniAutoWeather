@@ -1,0 +1,52 @@
+/**index.wxss**/
+page {
+  background-color: lightblue;
+}
+
+.wai {
+  height: 420rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nei {
+  background-color: white;
+  height: 350rpx;
+  width: 90%;
+  border-radius: 15rpx;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 350rpx;
+  width: 40%;
+  background-color: orange;
+}
+
+.left-img {
+  height: 220rpx;
+  width: 220rpx;
+}
+
+.left-text1 {
+  font-size: 30rpx;
+}
+
+.left-text2 {
+  font-size: 20rpx;
+}
+
+.rigth {
+  height: 350rpx;
+  width: 60%;
+  background-color: pink;
+}

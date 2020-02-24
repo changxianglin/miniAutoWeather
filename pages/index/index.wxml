@@ -1,0 +1,26 @@
+<view class="wai">
+  <view class="nei">
+    <view class="left">
+      <image class="left-img"></image>
+      <text class="left-text1">23 晴</text>
+      <text class="left-text2">更新时间</text>
+      <text class="left-text2">2020-02-24 14:54:12</text>
+    </view>
+    <view class="rigth">
+      <text class="right-text1">当前城市：{{province}},{{city}}</text>
+      <view class="right-bar">
+        <text class="right-text1"></text>
+        <text class="rgiht-text1"></text>
+      </view>
+      <view class="right-bar">
+        <text class="right-text1"></text>
+        <text class="rgiht-text1"></text>
+      </view>
+      <view class="right-bar">
+        <text class="right-text1"></text>
+        <text class="rgiht-text1"></text>
+      </view>
+      <view class="right-text1"></view>
+    </view>
+  </view>
+</view>
